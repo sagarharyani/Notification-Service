@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const notificationRouter = require('./routes/notification');
+const notificationRouter = require('./routes/notificationRouter');
 
 // Using the bodyParser middleware to parse JSON-encoded request bodies
 app.use(bodyParser.json());

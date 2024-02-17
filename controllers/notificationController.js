@@ -1,4 +1,4 @@
-const NotificationService = require('../services/notification');
+const NotificationService = require('../services/notificationService');
 
 exports.sendNotification = async (req, res) => {
   try {

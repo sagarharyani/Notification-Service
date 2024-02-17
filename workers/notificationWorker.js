@@ -1,5 +1,5 @@
 const amqp = require('amqplib');
-const ChannelHandlers = require('./channelHandlers');
+const ChannelHandlers = require('./handlers');
 
 // Connecting to RabbitMQ server and consuming messages from the queue
 async function consumeMessages() {
